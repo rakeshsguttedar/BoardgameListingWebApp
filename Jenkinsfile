@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git 'https://github.com/jaiswaladi2468/BoardgameListingWebApp.git'
+                git 'https://github.com/rakeshsguttedar/BoardgameListingWebApp.git'
             }
         }
         
